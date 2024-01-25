@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #9AE19D;
+    color: #2C302E;
+  }
+  
+  /* Style the header */
+  header {
+    padding: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 35px;
+    color: #2C302E;
+  }
+  
+  /* Create two columns/boxes that floats next to each other */
+  nav {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    padding-top: 0px;
+    font-size: 1rem;
+
+  }
+  
+  /* Style the list inside the menu */
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  nav ul li a{
+    color: #2C302E;
+  }
+  
+  article {
+    
+    float: center;
+    padding: 20px;
+    width: 100%;
+    background-color: #537A5A;
+    color: #2C302E;
+  }
+
+  article img {
+    width: 200px;
+
+  }
+
+  article ul li p{
+    display: inline-block;
+    background-color: #909590;
+    margin-bottom: 0px;
+  }
+
+  article div {
+    border: 6px;
+    border-style: solid;
+    padding: 10px;
+  }
